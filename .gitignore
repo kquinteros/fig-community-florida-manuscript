@@ -1,0 +1,17 @@
+# Whitelist: track only what's needed to render
+/*
+!/.gitignore
+!/README.md
+!/_quarto.yml
+!/index.qmd
+!/references.bib
+!/elsevier.csl
+!/figures/
+/figures/*
+!/figures/fig-foundress.png
+!/figures/fig-npfw-abundance.png
+!/figures/178_pollinator_species_phylogeny_pruned.png
+!/figures/1_filtered_genus_phylogeny_pruned.png
+!/figures/4_filtered_noAnidarnes_genus_phylogeny_pruned.png
+!/figures/1_filtered_genus_phylogeny_FULL_supplemental.png
+!/figures/suppfig-1.png

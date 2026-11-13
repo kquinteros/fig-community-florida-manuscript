@@ -1,0 +1,74 @@
+project:
+  type: manuscript
+
+manuscript:
+  article: index.qmd
+  manuscript-url: https://github.com/kquinteros/fig-community-florida-manuscript
+
+title: "Evidence of cryptic fig wasp diversity and introgression in Florida’s native fig-fig wasp mutualisms "
+author:
+  - name: Kevin Quinteros
+    orcid: 0000-0002-7121-129X
+    email: kquinter@umd.edu
+    corresponding: false
+    affiliations:
+      - ref: aff1
+    roles:
+      - Investigation
+      - Data Analysis
+      - Visualization
+      - Manuscript writing
+  - name: Zhengren Zhang
+    orcid: 0000-0001-7984-7586
+    email: zzhang44@umd.edu
+    corresponding: false
+    affiliations:
+      - ref: aff1
+    roles:
+      - Data generation
+      - Data analysis
+      - Manuscript writing
+  - name: Zexuan Zhao
+    email: zzhao127@umd.edu
+    corresponding: false
+    affiliations:
+      - ref: aff1
+    roles:
+      - Data generation
+      - Data analysis
+      - Manuscript writing
+  - name: Eshal Ahmed
+    corresponding: false
+    affiliations:
+      - ref: aff1
+    roles:
+      - Data generation
+  - name: Carlos A. Machado
+    orcid: 0000-0003-1546-7415
+    email: machado@umd.edu
+    corresponding: true
+    affiliations:
+      - ref: aff1
+    roles:
+      - Project administration
+
+affiliations:
+  - id: aff1
+    name: "Department of Biology, University of Maryland, College Park, MD 20782, USA"
+
+bibliography: references.bib
+csl: elsevier.csl
+
+format:
+  html:
+    toc: false
+    code-fold: true
+    theme: cosmo
+  docx:
+    toc: false
+    number-sections: true
+
+execute:
+  echo: false
+  warning: false
+  freeze: auto
